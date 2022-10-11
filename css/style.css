@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-blue {
+    background-color: lightskyblue;
+}
+
+.bg-green {
+    background-color: greenyellow;
+}
